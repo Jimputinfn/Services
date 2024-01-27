@@ -1,4 +1,4 @@
-title Windows Debloat Tool By Jimputin
+title Windows Service Disabler By Jimputinfn | github.com/jimputinfn
 color a 
 echo off
 cls
