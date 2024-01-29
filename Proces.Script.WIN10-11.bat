@@ -215,6 +215,8 @@ sc config XboxNetApiSvc start= demand
 @echo off
 SET /P QUESTION=Do You Want To Restart Your PC? (Y/N):
 If /I %QUESTION%==Y goto reboot
+If /I %QUESTION%==N goto rebot
+:rebot
 echo Please Restart Your PC later.
 timeout /t 5
 exit
