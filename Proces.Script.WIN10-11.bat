@@ -12,7 +12,7 @@ echo.
 pause
 goto :EOF
 :START_SCRIPT
-wmic.exe /Namespace:\\root\default Path SystemRestore Call CreateRestorePoint "<Jimputin  Services Manager >", 100, 7
+wmic.exe /Namespace:\\root\default Path SystemRestore Call CreateRestorePoint "<Jimputinfn  Services Manager >", 100, 7
 :EOF
 echo WARNING THIS EDITS WINDOWS SERVICES!
 pause
@@ -183,6 +183,7 @@ sc config Wcmsvc start= auto
 sc config WdNisSvc start= demand
 sc config WinDefend start= auto
 sc config wudfsvc start= demand
+echo half done!
 sc config WEPHOSTSVC start= demand
 sc config WerSvc start= demand
 sc config Wecsvc start= demand
