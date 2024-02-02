@@ -214,7 +214,7 @@ sc config XblAuthManager start= demand
 sc config XblGameSave start= demand
 sc config XboxNetApiSvc start= demand
 @echo off
-SET /P QUESTION=Do You Want To Restart Your PC? (Y/N):
+SET /P QUESTION=Do You Want To Restart Your PC? (It is recommended) (Y/N):
 If /I %QUESTION%==Y goto reboot
 If /I %QUESTION%==N goto rebot
 :rebot
