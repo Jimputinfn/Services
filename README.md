@@ -7,4 +7,6 @@ Click Code and then Download ZIP
 <br> 
 Then extract it!
 <br> 
+And Run it AS ADMIN
+<br> 
 Hopefully this help ❤️
